@@ -29,7 +29,7 @@
 .light{
   --background: #000000;
   --foreground: #fff;
-  --primary: #f1efef;
+  --primary: #EAEAEA;
   --secondary: #fff;
   --border:rgba(63, 63, 70, 0.4);
   --borderheder:1px solid #120202ad;
@@ -110,6 +110,7 @@ a {
   margin: auto;
   background-color: var(--secondary);
   padding: var(--PadContainer);
+  box-shadow: 1px 1px 10px #938c8c3d;
 }
 
 .border-heder{

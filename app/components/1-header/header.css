@@ -133,7 +133,7 @@ header .close{
     display: flex;
     justify-content: end;
 }
-.lucide.lucide-moon,.lucide.lucide-menu{
+.lucide.lucide-moon,.lucide.lucide-menu,.lucide.lucide-sun{
     width: 38px;
     height: 38px;
     padding: 6px;
@@ -150,6 +150,13 @@ header .close{
     -moz-transition:0.2s ;
     -ms-transition:0.2s ;
     -o-transition:0.2s ;
+}
+
+.lucide.lucide-sun{
+    color: rgb(255, 217, 0);
+    border: 1px solid rgb(253, 143, 0);
+    box-shadow: 1px 1px 40px yellow;
+
 }
 .lucide.lucide-moon:hover,.lucide.lucide-menu:hover{
     color: var(--title);
