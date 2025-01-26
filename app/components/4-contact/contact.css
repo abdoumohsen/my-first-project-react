@@ -1,0 +1,159 @@
+.Contact{
+  display: flex;
+  justify-content: space-between;
+}
+.envelopeicon {
+  width: 24px;
+  fill: var(--subtitle);
+}
+.contact-us {
+  font-size: 2rem;
+  padding-inline: 2.4rem;
+}
+.envelopeicontext {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.spanenvelopeicon {
+  position: absolute;
+  transform: translate(0, 29%);
+  -webkit-transform: translate(0, 29%);
+  -moz-transform: translate(0, 29%);
+  -ms-transform: translate(0, 29%);
+  -o-transform: translate(0, 29%);
+}
+.contactus-p {
+  margin-top: 12px;
+}
+
+form.contactrightside {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  /* border: 1px solid red; */
+}
+
+#emailcontact,
+#textarea {
+  all: unset;
+  border: 1px solid var(--subtitle);
+  background-color: var(--bgcolor);
+  border-radius: 3px;
+  text-indent: 10px;
+  width: 15rem;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 10px 0;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+#textarea {
+  min-height: 9rem;
+  resize: both;
+}
+#emailcontact:focus,
+#textarea:focus {
+  border: 1px solid var(--green);
+}
+#emailcontact:hover,
+#textarea:hover {
+  border: 1px solid var(--green);
+}
+
+#textareagroup,
+#emailaddressgroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.submit {
+  display: block;
+  border: 1px solid var(--subtitle);
+  padding: 12px 0;
+  margin-left: 7rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 12px;
+  width: 15rem;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--bgcolor);
+  opacity: 0.5;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.submit:hover {
+  border: 1px solid var(--green);
+  opacity: 1;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+.submit:focus {
+  scale: 0.99;
+}
+.email-address,.your-message {
+  width: 7rem;
+  display: inline-block;
+}
+.animation{
+  align-self: center;
+  margin: auto;
+  text-align: center;
+
+}
+.sucsessicon{
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .contactrightside {
+    align-items: start;
+    text-align: center;
+  }
+  #textareagroup,
+  #emailaddressgroup {
+    display: flex;
+    flex-direction: column;
+  }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+
+  .animation svg{
+    display: none;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .animation svg{
+    width: 250px !important;
+    height: 250px !important;
+    }
+    
+}

@@ -1,0 +1,80 @@
+
+
+ section.Hero{
+    margin-block: 3rem;
+    display: flex;
+}
+
+  .HeroLeft{
+    width: 75%;
+}
+.HeroAvatar{
+    margin-block: 12px;
+    padding: 5px;
+}
+
+.HeroAvatar img{
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 0, 0.596);
+    padding: 1px;
+    box-shadow:inset 1px 1px 10px rgba(255, 255, 0, 0.589);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+.HeroAvatar img:hover{
+    border: 1px solid rgba(255, 255, 0, 0.925);
+    box-shadow:inset 1px 1px 10px rgba(255, 255, 0, 0.781);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.HeroRight{
+flex-grow: 1;}
+.lucide.lucide-badge-check{
+    color:var(--blue);
+}
+.HeroLeft .title{
+    text-transform: capitalize;
+    line-height: 2.2rem;
+    padding: 5px;
+    margin-block: 2rem;
+
+   }
+  
+
+   .HeroLeft .subtitle{
+    color: var(--subtitle);
+    padding: 5px;
+    font-size: 14px;
+    margin-block: 2rem;
+
+   }
+   .MediaHeroIcon{
+    display: flex;
+    gap: 10px;
+    margin-block: 2rem;
+    padding: 5px;
+
+   }
+  .IconInestgram,.IconTwitter,.IconGithub,.IconLinkedin{
+    fill: var(--subtitle);
+    width: 20px;
+  }
+  .IconInestgram:hover,.IconTwitter:hover,.IconGithub:hover,.IconLinkedin:hover{
+ cursor: pointer;
+ scale: 1.1;
+ fill: var(--mediaiconcolor);
+ transition: 0.2s;
+ -webkit-transition: 0.2s;
+ -moz-transition: 0.2s;
+ -ms-transition: 0.2s;
+ -o-transition: 0.2s;
+}
